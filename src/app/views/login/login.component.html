@@ -1,0 +1,21 @@
+<mat-card class="pesquisa mat-elevation-z3">
+    <mat-card-title class="title">Login/Logout</mat-card-title>
+    <mat-card-subtitle class="subtitle"></mat-card-subtitle>
+
+    <mat-form-field>
+        <input matInput placeholder="Usuário">
+    </mat-form-field>
+
+    <mat-form-field>
+        <input matInput placeholder="Senha" type="password">
+    </mat-form-field>
+<div class="button">
+    <button mat-raised-button (click)="entrar()">
+        Entrar
+    </button>
+
+    <button mat-raised-button (click)="sair()">
+        Sair
+    </button>
+</div>
+</mat-card>

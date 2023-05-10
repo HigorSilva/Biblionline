@@ -1,0 +1,23 @@
+form{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.pesquisalivro{
+    width: 600px;
+}
+
+i{
+    margin: 15px;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.subtitle{
+    font-size: 1.1rem;
+    font-style: italic;
+    padding-top: 5px;
+}

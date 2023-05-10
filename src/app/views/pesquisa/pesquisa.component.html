@@ -1,0 +1,19 @@
+<mat-card class="pesquisa mat-elevation-z3">
+    <mat-card-title class="title">Pesquisa de Livros</mat-card-title>
+    <mat-card-subtitle class="subtitle"></mat-card-subtitle>
+
+    <mat-form-field>
+        <input matInput placeholder="ISBN">
+    </mat-form-field>
+    <i class="material-icons" title="pesquisar" (click)="pesquisarIsbn()">
+        search
+    </i>
+
+    <mat-form-field class="pesquisalivro">
+        <input matInput placeholder="Livro">
+    </mat-form-field>
+    <i class="material-icons" title="pesquisar" (click)="pesquisarLivro()">
+        search
+    </i>
+
+</mat-card>

@@ -1,0 +1,30 @@
+<mat-card class="aluno mat-elevation-z3">
+    <mat-card-title class="title">Cadastro de Alunos</mat-card-title>
+    <mat-card-subtitle class="subtitle"></mat-card-subtitle>
+
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="RA">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Nome">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Telefone">
+        </mat-form-field>
+    </form>   
+    
+    <button mat-raised-button (click)="pesquisarAluno()">
+        Pesquisar
+    </button>
+
+    <button mat-raised-button (click)="incluirAluno()">
+        Incluir
+    </button>
+
+    <button mat-raised-button (click)="excluirAluno()">
+        Excluir
+    </button>
+</mat-card>

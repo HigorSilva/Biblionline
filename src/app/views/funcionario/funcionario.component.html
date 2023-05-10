@@ -1,0 +1,30 @@
+<mat-card class="funcionario mat-elevation-z3">
+    <mat-card-title class="title">Cadastro de Funcionários</mat-card-title>
+    <mat-card-subtitle class="subtitle"></mat-card-subtitle>
+
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Id">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Nome">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Nível">
+        </mat-form-field>
+    </form>   
+    
+    <button mat-raised-button (click)="pesquisarFunci()">
+        Pesquisar
+    </button>
+
+    <button mat-raised-button (click)="incluirFunci()">
+        Incluir
+    </button>
+
+    <button mat-raised-button (click)="excluirFunci()">
+        Excluir
+    </button>
+</mat-card>

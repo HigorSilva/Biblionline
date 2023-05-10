@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+}
+
+.header .figura{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header .logo{
+    max-height: 60px;
+}
+
+.header .title-group{
+    padding-left: 10px;
+}
+
+.header .title-group i{
+    padding-right: 5px;
+}
+
+.usuario{
+    position: fixed;
+    right: 0px;
+}
+
+.usuario .login{        
+    top: 6px;
+    color: black;
+    padding: 5px;
+}

@@ -1,0 +1,30 @@
+<mat-card class="livro mat-elevation-z3">
+    <mat-card-title class="title">Cadastro de Livros</mat-card-title>
+    <mat-card-subtitle class="subtitle"></mat-card-subtitle>
+
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="ISBN">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Livro">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Cópias">
+        </mat-form-field>
+    </form>   
+    
+    <button mat-raised-button (click)="pesquisarLivro()">
+        Pesquisar
+    </button>
+
+    <button mat-raised-button (click)="incluirLivro()">
+        Incluir
+    </button>
+
+    <button mat-raised-button (click)="excluirLivro()">
+        Excluir
+    </button>
+</mat-card>

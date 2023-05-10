@@ -1,0 +1,34 @@
+<mat-card class="emprestimo mat-elevation-z3">
+    <mat-card-title class="title">Empréstimo e Devolução de Livros</mat-card-title>
+    <mat-card-subtitle class="subtitle"></mat-card-subtitle>
+
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="ISBN">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Livro">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="RA">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Aluno">
+        </mat-form-field>
+    </form>   
+    
+    <button mat-raised-button (click)="pesquisar()">
+        Pesquisar
+    </button>
+
+    <button mat-raised-button (click)="emprestar()">
+        Emprestar
+    </button>
+
+    <button mat-raised-button (click)="devolver()">
+        Devolver
+    </button>
+</mat-card>
